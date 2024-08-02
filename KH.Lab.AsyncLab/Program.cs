@@ -48,5 +48,6 @@ static Task MyMethodAsync()
             $"所使用的執行緒 :{Thread.CurrentThread.ManagedThreadId}");
         Console.WriteLine("需要花費 7 秒鐘");
         Thread.Sleep(7000);
+        Console.WriteLine("已花費 7 秒鐘");
     });
 }
